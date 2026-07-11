@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "hand",
+      "detection_confidence": 0.941
+    },
+    {
+      "id": 1,
+      "label": "hand",
+      "detection_confidence": 0.801
+    },
+    {
+      "id": 2,
+      "label": "red wire",
+      "detection_confidence": 0.914
+    },
+    {
+      "id": 3,
+      "label": "red wire",
+      "detection_confidence": 0.867
+    },
+    {
+      "id": 4,
+      "label": "electrical wire",
+      "detection_confidence": 0.906
+    },
+    {
+      "id": 5,
+      "label": "red wire",
+      "detection_confidence": 0.773
+    },
+    {
+      "id": 6,
+      "label": "red wire",
+      "detection_confidence": 0.793
+    }
+  ]
+}

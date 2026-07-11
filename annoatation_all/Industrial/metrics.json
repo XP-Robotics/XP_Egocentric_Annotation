@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 1026.39,
+      "cx": 960.0,
+      "cy": 540.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 180,
+    "frames_with_both_hands": 166,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "hand",
+        "detection_confidence": 0.941
+      },
+      {
+        "id": 1,
+        "label": "hand",
+        "detection_confidence": 0.801
+      },
+      {
+        "id": 2,
+        "label": "red wire",
+        "detection_confidence": 0.914
+      },
+      {
+        "id": 3,
+        "label": "red wire",
+        "detection_confidence": 0.867
+      },
+      {
+        "id": 4,
+        "label": "electrical wire",
+        "detection_confidence": 0.906
+      },
+      {
+        "id": 5,
+        "label": "red wire",
+        "detection_confidence": 0.773
+      },
+      {
+        "id": 6,
+        "label": "red wire",
+        "detection_confidence": 0.793
+      }
+    ]
+  }
+}
