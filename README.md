@@ -34,7 +34,7 @@ pipeline generalising across healthcare, industrial, office and household tasks.
   <tr>
     <td align="center"><b>07 · Active / Next-Active Object</b><br><sub>fold-cloth packing</sub><br><br><img src="showcase/07_active_object.gif" width="100%"></td>
     <td align="center"><b>08 · Object 6DoF Pose</b><br><sub>cleaning kitchen slab</sub><br><br><img src="showcase/08_6dof.gif" width="100%"></td>
-    <td align="center"><b>09 · Gaze (attention proxy)</b><br><sub>sticker-in-cloth</sub><br><br><img src="showcase/09_gaze.gif" width="100%"></td>
+    <td align="center"><b>09 · Gaze (attention proxy)</b><br><sub>outdoor · motorcycle ride</sub><br><br><img src="showcase/09_gaze.gif" width="100%"></td>
   </tr>
 </table>
 
