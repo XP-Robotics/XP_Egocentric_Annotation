@@ -1,0 +1,24 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "motorcycle",
+      "detection_confidence": 0.969
+    },
+    {
+      "id": 1,
+      "label": "hand",
+      "detection_confidence": 0.867
+    },
+    {
+      "id": 2,
+      "label": "hand",
+      "detection_confidence": 0.777
+    },
+    {
+      "id": 3,
+      "label": "speedometer",
+      "detection_confidence": 0.93
+    }
+  ]
+}
