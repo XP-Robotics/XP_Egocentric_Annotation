@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 1088.85,
+      "cx": 960.0,
+      "cy": 540.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 180,
+    "frames_with_both_hands": 180,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "hand",
+        "detection_confidence": 0.906
+      },
+      {
+        "id": 1,
+        "label": "blue pipe",
+        "detection_confidence": 0.836
+      },
+      {
+        "id": 2,
+        "label": "hand",
+        "detection_confidence": 0.906
+      },
+      {
+        "id": 3,
+        "label": "concrete block",
+        "detection_confidence": 0.824
+      },
+      {
+        "id": 4,
+        "label": "concrete block",
+        "detection_confidence": 0.883
+      },
+      {
+        "id": 5,
+        "label": "pliers",
+        "detection_confidence": 0.844
+      },
+      {
+        "id": 6,
+        "label": "blue valve",
+        "detection_confidence": 0.879
+      }
+    ]
+  }
+}

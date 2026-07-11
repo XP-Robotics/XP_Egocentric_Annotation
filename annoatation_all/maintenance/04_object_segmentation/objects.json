@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "hand",
+      "detection_confidence": 0.906
+    },
+    {
+      "id": 1,
+      "label": "blue pipe",
+      "detection_confidence": 0.836
+    },
+    {
+      "id": 2,
+      "label": "hand",
+      "detection_confidence": 0.906
+    },
+    {
+      "id": 3,
+      "label": "concrete block",
+      "detection_confidence": 0.824
+    },
+    {
+      "id": 4,
+      "label": "concrete block",
+      "detection_confidence": 0.883
+    },
+    {
+      "id": 5,
+      "label": "pliers",
+      "detection_confidence": 0.844
+    },
+    {
+      "id": 6,
+      "label": "blue valve",
+      "detection_confidence": 0.879
+    }
+  ]
+}
