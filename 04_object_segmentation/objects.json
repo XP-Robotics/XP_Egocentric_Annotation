@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "white papers",
+      "detection_confidence": 0.801
+    },
+    {
+      "id": 1,
+      "label": "red folder",
+      "detection_confidence": 0.883
+    },
+    {
+      "id": 2,
+      "label": "white papers",
+      "detection_confidence": 0.715
+    },
+    {
+      "id": 3,
+      "label": "hand",
+      "detection_confidence": 0.934
+    },
+    {
+      "id": 4,
+      "label": "hand",
+      "detection_confidence": 0.922
+    }
+  ]
+}
