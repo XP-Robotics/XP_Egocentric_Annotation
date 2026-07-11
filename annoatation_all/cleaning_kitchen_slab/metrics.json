@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 181,
+    "fps": 15,
+    "duration_s": 12.07,
+    "camera": {
+      "focal_px": 673.54,
+      "cx": 240.0,
+      "cy": 320.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 181,
+    "frames_with_both_hands": 179,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "hand",
+        "detection_confidence": 0.91
+      },
+      {
+        "id": 1,
+        "label": "hand",
+        "detection_confidence": 0.836
+      },
+      {
+        "id": 2,
+        "label": "cucumber",
+        "detection_confidence": 0.883
+      },
+      {
+        "id": 3,
+        "label": "onion",
+        "detection_confidence": 0.91
+      },
+      {
+        "id": 4,
+        "label": "onion",
+        "detection_confidence": 0.898
+      },
+      {
+        "id": 5,
+        "label": "onion",
+        "detection_confidence": 0.895
+      },
+      {
+        "id": 6,
+        "label": "onion",
+        "detection_confidence": 0.832
+      }
+    ]
+  }
+}

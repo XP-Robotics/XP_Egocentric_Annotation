@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "hand",
+      "detection_confidence": 0.91
+    },
+    {
+      "id": 1,
+      "label": "hand",
+      "detection_confidence": 0.836
+    },
+    {
+      "id": 2,
+      "label": "cucumber",
+      "detection_confidence": 0.883
+    },
+    {
+      "id": 3,
+      "label": "onion",
+      "detection_confidence": 0.91
+    },
+    {
+      "id": 4,
+      "label": "onion",
+      "detection_confidence": 0.898
+    },
+    {
+      "id": 5,
+      "label": "onion",
+      "detection_confidence": 0.895
+    },
+    {
+      "id": 6,
+      "label": "onion",
+      "detection_confidence": 0.832
+    }
+  ]
+}
