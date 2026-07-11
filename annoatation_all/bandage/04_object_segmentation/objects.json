@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "bandage box",
+      "detection_confidence": 0.785
+    },
+    {
+      "id": 1,
+      "label": "bandage box",
+      "detection_confidence": 0.535
+    },
+    {
+      "id": 2,
+      "label": "hand",
+      "detection_confidence": 0.91
+    },
+    {
+      "id": 3,
+      "label": "hand",
+      "detection_confidence": 0.832
+    },
+    {
+      "id": 4,
+      "label": "small white box",
+      "detection_confidence": 0.523
+    },
+    {
+      "id": 5,
+      "label": "small white box",
+      "detection_confidence": 0.586
+    },
+    {
+      "id": 6,
+      "label": "small white box",
+      "detection_confidence": 0.555
+    }
+  ]
+}

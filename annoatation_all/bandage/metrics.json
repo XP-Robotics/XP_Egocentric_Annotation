@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 1905.74,
+      "cx": 540.0,
+      "cy": 960.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 180,
+    "frames_with_both_hands": 176,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "bandage box",
+        "detection_confidence": 0.785
+      },
+      {
+        "id": 1,
+        "label": "bandage box",
+        "detection_confidence": 0.535
+      },
+      {
+        "id": 2,
+        "label": "hand",
+        "detection_confidence": 0.91
+      },
+      {
+        "id": 3,
+        "label": "hand",
+        "detection_confidence": 0.832
+      },
+      {
+        "id": 4,
+        "label": "small white box",
+        "detection_confidence": 0.523
+      },
+      {
+        "id": 5,
+        "label": "small white box",
+        "detection_confidence": 0.586
+      },
+      {
+        "id": 6,
+        "label": "small white box",
+        "detection_confidence": 0.555
+      }
+    ]
+  }
+}
