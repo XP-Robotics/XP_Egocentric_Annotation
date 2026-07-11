@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "grey fabric",
+      "detection_confidence": 0.906
+    },
+    {
+      "id": 1,
+      "label": "cloth",
+      "detection_confidence": 0.789
+    },
+    {
+      "id": 2,
+      "label": "cloth",
+      "detection_confidence": 0.859
+    },
+    {
+      "id": 3,
+      "label": "hand",
+      "detection_confidence": 0.887
+    },
+    {
+      "id": 4,
+      "label": "garment piece",
+      "detection_confidence": 0.758
+    },
+    {
+      "id": 5,
+      "label": "hand",
+      "detection_confidence": 0.918
+    },
+    {
+      "id": 6,
+      "label": "scissors",
+      "detection_confidence": 0.945
+    }
+  ]
+}

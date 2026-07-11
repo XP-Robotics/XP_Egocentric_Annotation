@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 181,
+    "fps": 15,
+    "duration_s": 12.07,
+    "camera": {
+      "focal_px": 636.93,
+      "cx": 240.0,
+      "cy": 320.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 181,
+    "frames_with_both_hands": 181,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "grey fabric",
+        "detection_confidence": 0.906
+      },
+      {
+        "id": 1,
+        "label": "cloth",
+        "detection_confidence": 0.789
+      },
+      {
+        "id": 2,
+        "label": "cloth",
+        "detection_confidence": 0.859
+      },
+      {
+        "id": 3,
+        "label": "hand",
+        "detection_confidence": 0.887
+      },
+      {
+        "id": 4,
+        "label": "garment piece",
+        "detection_confidence": 0.758
+      },
+      {
+        "id": 5,
+        "label": "hand",
+        "detection_confidence": 0.918
+      },
+      {
+        "id": 6,
+        "label": "scissors",
+        "detection_confidence": 0.945
+      }
+    ]
+  }
+}
