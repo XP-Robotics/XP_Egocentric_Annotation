@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 1537.86,
+      "cx": 540.0,
+      "cy": 960.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 171,
+    "frames_with_both_hands": 159,
+    "coverage_pct": 95.0
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "hand",
+        "detection_confidence": 0.867
+      },
+      {
+        "id": 1,
+        "label": "hand",
+        "detection_confidence": 0.895
+      },
+      {
+        "id": 2,
+        "label": "rolled bandage",
+        "detection_confidence": 0.898
+      },
+      {
+        "id": 3,
+        "label": "white bandage roll",
+        "detection_confidence": 0.895
+      },
+      {
+        "id": 4,
+        "label": "white bandage roll",
+        "detection_confidence": 0.883
+      },
+      {
+        "id": 5,
+        "label": "rolled bandage",
+        "detection_confidence": 0.887
+      },
+      {
+        "id": 6,
+        "label": "rolled bandage",
+        "detection_confidence": 0.895
+      }
+    ]
+  }
+}
