@@ -1,0 +1,57 @@
+{
+  "clip": {
+    "n_frames": 181,
+    "fps": 15,
+    "duration_s": 12.07,
+    "camera": {
+      "focal_px": 639.41,
+      "cx": 240.0,
+      "cy": 320.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 178,
+    "frames_with_both_hands": 177,
+    "coverage_pct": 98.3
+  },
+  "objects": {
+    "n_tracked": 7,
+    "detail": [
+      {
+        "id": 0,
+        "label": "maroon garment",
+        "detection_confidence": 0.93
+      },
+      {
+        "id": 1,
+        "label": "maroon garment",
+        "detection_confidence": 0.953
+      },
+      {
+        "id": 2,
+        "label": "maroon garment",
+        "detection_confidence": 0.961
+      },
+      {
+        "id": 3,
+        "label": "maroon garment",
+        "detection_confidence": 0.898
+      },
+      {
+        "id": 4,
+        "label": "clothing tag",
+        "detection_confidence": 0.973
+      },
+      {
+        "id": 5,
+        "label": "clothing tag",
+        "detection_confidence": 0.934
+      },
+      {
+        "id": 6,
+        "label": "clothing tag",
+        "detection_confidence": 0.867
+      }
+    ]
+  }
+}

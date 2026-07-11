@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "maroon garment",
+      "detection_confidence": 0.93
+    },
+    {
+      "id": 1,
+      "label": "maroon garment",
+      "detection_confidence": 0.953
+    },
+    {
+      "id": 2,
+      "label": "maroon garment",
+      "detection_confidence": 0.961
+    },
+    {
+      "id": 3,
+      "label": "maroon garment",
+      "detection_confidence": 0.898
+    },
+    {
+      "id": 4,
+      "label": "clothing tag",
+      "detection_confidence": 0.973
+    },
+    {
+      "id": 5,
+      "label": "clothing tag",
+      "detection_confidence": 0.934
+    },
+    {
+      "id": 6,
+      "label": "clothing tag",
+      "detection_confidence": 0.867
+    }
+  ]
+}
