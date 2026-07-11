@@ -28,7 +28,7 @@ pipeline generalising across healthcare, industrial, office and household tasks.
   </tr>
   <tr>
     <td align="center"><b>04 · Object Segmentation</b><br><sub>office · open-vocab</sub><br><br><img src="showcase/04_object_segmentation.gif" width="100%"></td>
-    <td align="center"><b>05 · Metric Depth</b><br><sub>outdoor · motorcycle ride</sub><br><br><img src="showcase/05_depth.gif" width="100%"></td>
+    <td align="center"><b>05 · Metric Depth</b><br><sub>tailoring · fabric heatmap</sub><br><br><img src="showcase/05_depth.gif" width="100%"></td>
     <td align="center"><b>06 · Camera Trajectory</b><br><sub>household · room organising</sub><br><br><img src="showcase/06_trajectory.png" width="100%"></td>
   </tr>
   <tr>
