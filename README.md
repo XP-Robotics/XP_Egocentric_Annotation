@@ -14,37 +14,41 @@ poses, and camera motion, in one metric world frame.
 
 ---
 
-## Results — the full ego stack
+## Results — one stage per scene
+
+The stack runs across many everyday egocentric scenes. Each panel below is a
+**different stage** shown on a **different real scene** — demonstrating the same
+pipeline generalising across healthcare, industrial, office and household tasks.
 
 <table>
   <tr>
-    <td width="33%" align="center"><b>Hand Detection + L/R</b><br><sub>both hands, side-labelled</sub><br><br><img src="01_hand_detection/hand_detection.gif" width="100%"></td>
-    <td width="33%" align="center"><b>3D Hand Mesh</b><br><sub>MANO, per frame</sub><br><br><img src="02_hand_mesh_hamer/hand_mesh_overlay.gif" width="100%"></td>
-    <td width="33%" align="center"><b>Hand Tracking</b><br><sub>21-joint, temporally stable</sub><br><br><img src="03_hand_tracking/hand_tracking.gif" width="100%"></td>
+    <td width="33%" align="center"><b>01 · Hand Detection + L/R</b><br><sub>healthcare · bandage rolls</sub><br><br><img src="showcase/01_hand_detection.gif" width="100%"></td>
+    <td width="33%" align="center"><b>02 · 3D Hand Mesh (MANO)</b><br><sub>maintenance · plumbing</sub><br><br><img src="showcase/02_hand_mesh.gif" width="100%"></td>
+    <td width="33%" align="center"><b>03 · Hand Tracking</b><br><sub>industrial · electrician</sub><br><br><img src="showcase/03_hand_tracking.gif" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>Object Segmentation</b><br><sub>open-vocabulary, text-prompted</sub><br><br><img src="04_object_segmentation/object_segmentation.gif" width="100%"></td>
-    <td align="center"><b>Metric Depth</b><br><sub>heatmap</sub><br><br><img src="05_depth_metric/tailoring_depth_heatmap.gif" width="100%"></td>
-    <td align="center"><b>Camera Trajectory</b><br><sub>egomotion / SLAM</sub><br><br><img src="06_camera_trajectory/camera_trajectory.png" width="100%"></td>
+    <td align="center"><b>04 · Object Segmentation</b><br><sub>office · open-vocab</sub><br><br><img src="showcase/04_object_segmentation.gif" width="100%"></td>
+    <td align="center"><b>05 · Metric Depth</b><br><sub>outdoor · motorcycle ride</sub><br><br><img src="showcase/05_depth.gif" width="100%"></td>
+    <td align="center"><b>06 · Camera Trajectory</b><br><sub>household · room organising</sub><br><br><img src="showcase/06_trajectory.png" width="100%"></td>
   </tr>
   <tr>
-    <td align="center"><b>Active / Next-Active Object</b><br><sub>hand-object contact</sub><br><br><img src="07_active_object/hand_object_100doh.gif" width="100%"></td>
-    <td align="center"><b>Object 6DoF Pose</b><br><sub>oriented 3D box + axes</sub><br><br><img src="08_object_6dof_pose/object_6dof_pose.gif" width="100%"></td>
-    <td align="center"><b>Gaze (attention proxy)</b><br><sub>manipulation focus</sub><br><br><img src="09_gaze/gaze_attention_proxy.gif" width="100%"></td>
+    <td align="center"><b>07 · Active / Next-Active Object</b><br><sub>fold-cloth packing</sub><br><br><img src="showcase/07_active_object.gif" width="100%"></td>
+    <td align="center"><b>08 · Object 6DoF Pose</b><br><sub>cleaning kitchen slab</sub><br><br><img src="showcase/08_6dof.gif" width="100%"></td>
+    <td align="center"><b>09 · Gaze (attention proxy)</b><br><sub>sticker-in-cloth</sub><br><br><img src="showcase/09_gaze.gif" width="100%"></td>
   </tr>
 </table>
 
 <div align="center">
 
-**NeuroDepth — neuromorphic event vision** (simulated event camera: ON/OFF events, time surface, reconstructed edges)
+**10 · NeuroDepth — neuromorphic event vision** &nbsp;<sub>(office-data scene)</sub>
+<br>ON/OFF events · time surface · reconstructed edges
 
-<img src="10_neurodepth/neurodepth_bandage.gif" width="70%">
+<img src="showcase/10_neurodepth.gif" width="70%">
 
 </div>
 
 <div align="center"><sub>
-Full-resolution MP4s live in each stage folder. Combined overview:
-<a href="showcase_montage.jpg">showcase_montage.jpg</a>.
+Full-resolution MP4s + per-frame JSON for <b>every</b> scene live in each stage folder.
 </sub></div>
 
 ---
