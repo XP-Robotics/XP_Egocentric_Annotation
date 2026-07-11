@@ -1,0 +1,47 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 1338.33,
+      "cx": 960.0,
+      "cy": 540.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 180,
+    "frames_with_both_hands": 169,
+    "coverage_pct": 100.0
+  },
+  "objects": {
+    "n_tracked": 5,
+    "detail": [
+      {
+        "id": 0,
+        "label": "snack packet",
+        "detection_confidence": 0.906
+      },
+      {
+        "id": 1,
+        "label": "hand",
+        "detection_confidence": 0.961
+      },
+      {
+        "id": 2,
+        "label": "hand",
+        "detection_confidence": 0.898
+      },
+      {
+        "id": 3,
+        "label": "plastic bag",
+        "detection_confidence": 0.75
+      },
+      {
+        "id": 4,
+        "label": "paper",
+        "detection_confidence": 0.613
+      }
+    ]
+  }
+}

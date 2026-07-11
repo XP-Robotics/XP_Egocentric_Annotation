@@ -1,0 +1,29 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "snack packet",
+      "detection_confidence": 0.906
+    },
+    {
+      "id": 1,
+      "label": "hand",
+      "detection_confidence": 0.961
+    },
+    {
+      "id": 2,
+      "label": "hand",
+      "detection_confidence": 0.898
+    },
+    {
+      "id": 3,
+      "label": "plastic bag",
+      "detection_confidence": 0.75
+    },
+    {
+      "id": 4,
+      "label": "paper",
+      "detection_confidence": 0.613
+    }
+  ]
+}
