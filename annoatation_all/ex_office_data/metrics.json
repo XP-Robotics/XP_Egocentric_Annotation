@@ -1,0 +1,42 @@
+{
+  "clip": {
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "camera": {
+      "focal_px": 748.73,
+      "cx": 240.0,
+      "cy": 360.0
+    }
+  },
+  "hands": {
+    "frames_with_hands": 173,
+    "frames_with_both_hands": 173,
+    "coverage_pct": 96.1
+  },
+  "objects": {
+    "n_tracked": 4,
+    "detail": [
+      {
+        "id": 0,
+        "label": "black backpack",
+        "detection_confidence": 0.977
+      },
+      {
+        "id": 1,
+        "label": "hand",
+        "detection_confidence": 0.852
+      },
+      {
+        "id": 2,
+        "label": "hand",
+        "detection_confidence": 0.883
+      },
+      {
+        "id": 3,
+        "label": "water bottle",
+        "detection_confidence": 0.871
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "objects": [
+    {
+      "id": 0,
+      "label": "black backpack",
+      "detection_confidence": 0.977
+    },
+    {
+      "id": 1,
+      "label": "hand",
+      "detection_confidence": 0.852
+    },
+    {
+      "id": 2,
+      "label": "hand",
+      "detection_confidence": 0.883
+    },
+    {
+      "id": 3,
+      "label": "water bottle",
+      "detection_confidence": 0.871
+    }
+  ]
+}
