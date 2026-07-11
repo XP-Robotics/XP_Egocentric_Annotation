@@ -1,0 +1,93 @@
+{
+  "clip": {
+    "source_mcap": "/home/raush/Documents/Ego_Infinity/annotation/inputs/device_01_3a69e5c8-c4a8-4c4e-b47e-c47bd049922b.mcap",
+    "camera": "front (rectified pinhole)",
+    "n_frames": 180,
+    "fps": 15,
+    "duration_s": 12.0,
+    "image_size": [
+      1280,
+      960
+    ],
+    "focal_px": 530.0,
+    "cx": 640.0,
+    "cy": 480.0,
+    "rectification": {
+      "tilt_pitch_deg": -30.0,
+      "known_focal_prior_px": 530.0
+    }
+  },
+  "stage01_hand_detection": {
+    "frames_with_hands": 180,
+    "frames_with_both_hands": 180,
+    "coverage_pct": 100.0
+  },
+  "stage02_hand_mesh": {
+    "model": "HaMeR",
+    "mano_verts_per_hand": 778,
+    "obj_files": 180
+  },
+  "stage03_hand_tracking": {
+    "model": "SAM2 + HaMeR",
+    "keypoints_per_hand": 21,
+    "tracks": "L/R stable"
+  },
+  "stage04_object_segmentation": {
+    "model": "SAM3.1 / Grounded-SAM open-vocab",
+    "objects": [
+      {
+        "label": "white papers",
+        "confidence": 0.801
+      },
+      {
+        "label": "red folder",
+        "confidence": 0.883
+      },
+      {
+        "label": "white papers",
+        "confidence": 0.715
+      },
+      {
+        "label": "hand",
+        "confidence": 0.934
+      },
+      {
+        "label": "hand",
+        "confidence": 0.922
+      }
+    ]
+  },
+  "stage05_depth": {
+    "models": [
+      "MoGe-2",
+      "Depth Anything V2 (metric)"
+    ],
+    "known_focal_prior_px": 530.0
+  },
+  "stage06_camera_trajectory": {
+    "model": "DROID-SLAM (torch2.7+cu128, Blackwell PTX-JIT)",
+    "status": "operational",
+    "keyframes": 8,
+    "translation_span_cm": [
+      5.7,
+      2.9,
+      6.7
+    ],
+    "note": "camera near-static on this seated desk clip"
+  },
+  "stage07_active_object": {
+    "models": [
+      "100DOH (learned, GPU)",
+      "contact-geometry (fallback)"
+    ],
+    "status": "operational"
+  },
+  "stage08_object_6dof_pose": {
+    "model": "mask+depth PCA (CAD-free); FoundationPose=upgrade",
+    "status": "operational"
+  },
+  "stage09_gaze": {
+    "model": "manipulation-attention proxy",
+    "status": "proxy (eye-tracking hardware-gated)"
+  }
+}

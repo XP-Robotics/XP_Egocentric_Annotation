@@ -1,0 +1,21 @@
+# weights & large binaries
+models/
+*.pth
+*.ckpt
+*.onnx
+*.pt
+*.h265
+# third-party repos (see SETUP.md)
+**/DROID-SLAM/
+**/HITNet/
+**/Depth-Anything-V2/
+**/hand_object_detector/
+# raw source videos / inputs
+inputs/
+*_input.mp4
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+*venv/
