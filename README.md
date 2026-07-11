@@ -61,18 +61,18 @@ capability, its inputs, and its outputs.
 
 | # | Stage | Folder | Key deliverables |
 |---|---|---|---|
-| 01 | Hand detection + side (L/R) | [`01_hand_detection/`](01_hand_detection/) | video · `hand_detections.json` |
-| 02 | 3D hand mesh (MANO) | [`02_hand_mesh_hamer/`](02_hand_mesh_hamer/) | video · `hand_meshes/` (per-frame `.obj`) |
-| 03 | Hand tracking over time | [`03_hand_tracking/`](03_hand_tracking/) | video · `hand_tracks.json` (2D+3D) |
-| 04 | Object segmentation (open-vocab) | [`04_object_segmentation/`](04_object_segmentation/) | video · `objects.json` · trajectory plot |
-| 05 | Metric depth | [`05_depth_metric/`](05_depth_metric/) | monocular + **stereo** depth videos |
-| 06 | Camera trajectory / egomotion | [`06_camera_trajectory/`](06_camera_trajectory/) | trajectory plot · `camera_poses.npy` |
-| 07 | Active / next-active object | [`07_active_object/`](07_active_object/) | video · contact + active-object JSON |
-| 08 | Object 6DoF pose | [`08_object_6dof_pose/`](08_object_6dof_pose/) | video · `object_6dof_poses.json` |
-| 09 | Gaze (attention proxy) | [`09_gaze/`](09_gaze/) | video · `attention_proxy.json` |
+| 01 | Hand detection + side (L/R) | [`01_hand_detection/`](outputs/01_hand_detection/) | video · `hand_detections.json` |
+| 02 | 3D hand mesh (MANO) | [`02_hand_mesh_hamer/`](outputs/02_hand_mesh_hamer/) | video · `hand_meshes/` (per-frame `.obj`) |
+| 03 | Hand tracking over time | [`03_hand_tracking/`](outputs/03_hand_tracking/) | video · `hand_tracks.json` (2D+3D) |
+| 04 | Object segmentation (open-vocab) | [`04_object_segmentation/`](outputs/04_object_segmentation/) | video · `objects.json` · trajectory plot |
+| 05 | Metric depth | [`05_depth_metric/`](outputs/05_depth_metric/) | monocular + **stereo** depth videos |
+| 06 | Camera trajectory / egomotion | [`06_camera_trajectory/`](outputs/06_camera_trajectory/) | trajectory plot · `camera_poses.npy` |
+| 07 | Active / next-active object | [`07_active_object/`](outputs/07_active_object/) | video · contact + active-object JSON |
+| 08 | Object 6DoF pose | [`08_object_6dof_pose/`](outputs/08_object_6dof_pose/) | video · `object_6dof_poses.json` |
+| 09 | Gaze (attention proxy) | [`09_gaze/`](outputs/09_gaze/) | video · `attention_proxy.json` |
 
 A depth result on an **additional client clip** is included in
-[`external_video_depth/`](external_video_depth/).
+[`external_video_depth/`](outputs/external_video_depth/).
 
 ---
 
